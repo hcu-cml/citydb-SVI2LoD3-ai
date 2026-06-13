@@ -1,0 +1,28 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 2251, "y1": 3999},
+  "openings": [
+    {"type": "Window", "x0": 536, "y0": 628, "x1": 1135, "y1": 781, "reason": "aligned first-row left window to SAM mask and column grid"},
+    {"type": "Window", "x0": 1348, "y0": 628, "x1": 1875, "y1": 781, "reason": "aligned first-row right window to SAM mask and column grid"},
+    {"type": "Window", "x0": 536, "y0": 909, "x1": 1135, "y1": 1082, "reason": "second-row left window aligned with row/column grid"},
+    {"type": "Window", "x0": 1348, "y0": 909, "x1": 1898, "y1": 1082, "reason": "second-row right window aligned with row/column grid"},
+    {"type": "Window", "x0": 536, "y0": 1221, "x1": 1135, "y1": 1411, "reason": "third-row left window aligned with SAM and grid"},
+    {"type": "Window", "x0": 1348, "y0": 1221, "x1": 1921, "y1": 1411, "reason": "third-row right window aligned with SAM and grid"},
+    {"type": "Window", "x0": 536, "y0": 1557, "x1": 1135, "y1": 1767, "reason": "fourth-row left window aligned with SAM and grid"},
+    {"type": "Window", "x0": 1348, "y0": 1557, "x1": 1951, "y1": 1767, "reason": "fourth-row right window aligned with SAM and grid"},
+    {"type": "Window", "x0": 536, "y0": 1889, "x1": 1135, "y1": 2133, "reason": "fifth-row left window aligned with SAM and grid"},
+    {"type": "Window", "x0": 1348, "y0": 1889, "x1": 1983, "y1": 2133, "reason": "fifth-row right window aligned with SAM and grid"},
+    {"type": "Window", "x0": 536, "y0": 2335, "x1": 1135, "y1": 2591, "reason": "sixth-row left window aligned with SAM and grid"},
+    {"type": "Window", "x0": 1348, "y0": 2335, "x1": 2022, "y1": 2591, "reason": "sixth-row right window aligned with SAM and grid"},
+    {"type": "Window", "x0": 1348, "y0": 2864, "x1": 2082, "y1": 3348, "reason": "ground-floor right large window from SAM mask"},
+    {"type": "Door", "x0": 394, "y0": 2933, "x1": 624, "y1": 3268, "reason": "left entrance door from SAM mask, cleaned from car occlusion"},
+    {"type": "Door", "x0": 859, "y0": 2936, "x1": 1060, "y1": 3305, "reason": "central entrance door from SAM mask"},
+    {"type": "Door", "x0": 1895, "y0": 3264, "x1": 2122, "y1": 3625, "reason": "right entrance door from SAM mask"},
+    {"type": "Door", "x0": 2118, "y0": 3262, "x1": 2251, "y1": 3625, "reason": "extreme-right entrance door from SAM mask, trimmed to facade bbox"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "All roof-level small openings and side/edge candidate boxes were removed as non-facade or roof elements.",
+    "Window rows and columns were snapped to common x and y coordinates based on SAM mask while keeping boxes inside the facade rectangle.",
+    "No overlapping between windows and doors; openings fully contained within facade bbox."
+  ]
+}

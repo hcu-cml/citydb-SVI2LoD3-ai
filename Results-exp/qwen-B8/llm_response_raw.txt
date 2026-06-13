@@ -1,0 +1,22 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {"type": "Window", "x0": 1170, "y0": 837, "x1": 1427, "y1": 1169, "reason": "aligned row"},
+    {"type": "Window", "x0": 1589, "y0": 800, "x1": 2003, "y1": 1069, "reason": "aligned row"},
+    {"type": "Window", "x0": 2159, "y0": 843, "x1": 2396, "y1": 1163, "reason": "aligned row"},
+    {"type": "Window", "x0": 1174, "y0": 1318, "x1": 1405, "y1": 1554, "reason": "aligned row"},
+    {"type": "Window", "x0": 1470, "y0": 1355, "x1": 1601, "y1": 1479, "reason": "aligned row"},
+    {"type": "Window", "x0": 1986, "y0": 1352, "x1": 2109, "y1": 1468, "reason": "aligned row"},
+    {"type": "Window", "x0": 2179, "y0": 1307, "x1": 2392, "y1": 1539, "reason": "aligned row"},
+    {"type": "Window", "x0": 878, "y0": 1459, "x1": 974, "y1": 1545, "reason": "aligned row"},
+    {"type": "Door", "x0": 1188, "y0": 844, "x1": 1423, "y1": 1169, "reason": "aligned row"},
+    {"type": "Door", "x0": 2162, "y0": 848, "x1": 2385, "y1": 1162, "reason": "aligned row"},
+    {"type": "Door", "x0": 1711, "y0": 1286, "x1": 1875, "y1": 1676, "reason": "aligned row"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Removed roof windows and noise (trees, cars, signs, neighboring buildings).",
+    "Aligned windows into consistent rows and columns based on visual evidence.",
+    "All openings are axis-aligned rectangles and fully within facade bounds."
+  ]
+}

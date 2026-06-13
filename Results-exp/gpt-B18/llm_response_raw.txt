@@ -1,0 +1,35 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 1053, "y1": 3161},
+  "openings": [
+    {"type": "Window", "x0": 187, "y0": 388, "x1": 307, "y1": 592, "reason": "SAM window, aligned first full row left"},
+    {"type": "Window", "x0": 366, "y0": 382, "x1": 509, "y1": 582, "reason": "SAM window, aligned first full row mid-left"},
+    {"type": "Window", "x0": 591, "y0": 379, "x1": 740, "y1": 580, "reason": "SAM window, aligned first full row mid-right"},
+    {"type": "Window", "x0": 809, "y0": 382, "x1": 925, "y1": 587, "reason": "SAM window, aligned first full row right"},
+
+    {"type": "Window", "x0": 160, "y0": 757, "x1": 294, "y1": 980, "reason": "SAM window, aligned second full row left"},
+    {"type": "Window", "x0": 368, "y0": 760, "x1": 498, "y1": 918, "reason": "SAM window, aligned second full row mid-left"},
+    {"type": "Window", "x0": 597, "y0": 759, "x1": 724, "y1": 922, "reason": "SAM window, aligned second full row mid-right"},
+    {"type": "Window", "x0": 807, "y0": 758, "x1": 929, "y1": 980, "reason": "SAM window, aligned second full row right"},
+
+    {"type": "Window", "x0": 143, "y0": 1170, "x1": 277, "y1": 1405, "reason": "SAM window, aligned third full row left"},
+    {"type": "Window", "x0": 353, "y0": 1168, "x1": 483, "y1": 1375, "reason": "SAM window, aligned third full row mid-left"},
+    {"type": "Window", "x0": 582, "y0": 1170, "x1": 723, "y1": 1376, "reason": "SAM window, aligned third full row mid-right"},
+    {"type": "Window", "x0": 803, "y0": 1173, "x1": 933, "y1": 1419, "reason": "SAM window, aligned third full row right"},
+
+    {"type": "Window", "x0": 120, "y0": 1603, "x1": 259, "y1": 1866, "reason": "SAM window, aligned fourth full row left"},
+    {"type": "Window", "x0": 334, "y0": 1602, "x1": 473, "y1": 1912, "reason": "SAM window, aligned fourth full row mid-left"},
+    {"type": "Window", "x0": 572, "y0": 1605, "x1": 721, "y1": 1919, "reason": "SAM window, aligned fourth full row mid-right"},
+    {"type": "Window", "x0": 801, "y0": 1608, "x1": 934, "y1": 1875, "reason": "SAM window, aligned fourth full row right"},
+
+    {"type": "Window", "x0": 76, "y0": 2072, "x1": 242, "y1": 2324, "reason": "SAM window, aligned fifth full row left"},
+    {"type": "Window", "x0": 322, "y0": 2076, "x1": 482, "y1": 2336, "reason": "SAM window, aligned fifth full row mid-left"},
+    {"type": "Window", "x0": 549, "y0": 2082, "x1": 709, "y1": 2450, "reason": "SAM window, aligned fifth full row mid-right"},
+    {"type": "Window", "x0": 792, "y0": 2087, "x1": 962, "y1": 2455, "reason": "SAM window, aligned fifth full row right"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Roof-level dormer windows removed as roof openings per RGB/SAM comparison.",
+    "No doors detected in SAM within facade; ground-level passage and garage treated as wall.",
+    "All openings kept within facade bbox and rows/columns follow regular grid from candidate boxes."
+  ]
+}

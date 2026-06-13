@@ -1,0 +1,17 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 1068, "y1": 1643},
+  "openings": [
+    {"type": "Window", "x0": 640, "y0": 270, "x1": 1038, "y1": 430, "reason": "two roof windows merged into one aligned opening; roof level but clearly facade dormer"},
+    {"type": "Window", "x0": 302, "y0": 744, "x1": 405, "y1": 1004, "reason": "left first-floor balcony window from SAM, refined to candidate box"},
+    {"type": "Window", "x0": 592, "y0": 748, "x1": 767, "y1": 1004, "reason": "center first-floor window; aligned with right window row"},
+    {"type": "Window", "x0": 866, "y0": 748, "x1": 1038, "y1": 1004, "reason": "right first-floor window; aligned with center window row"},
+    {"type": "Door", "x0": 287, "y0": 1118, "x1": 426, "y1": 1420, "reason": "main entrance door; merged d_01, d_02, d_03 into one continuous opening"},
+    {"type": "Window", "x0": 631, "y0": 1124, "x1": 1006, "y1": 1328, "reason": "large ground-floor window from SAM, refined to candidate box"},
+    {"type": "Door", "x0": 669, "y0": 1464, "x1": 961, "y1": 1643, "reason": "garage door from SAM, refined to candidate box"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Tree occlusions near main door ignored; openings kept rectangular and aligned.",
+    "No overlapping boxes; all openings lie fully within facade rectangle."
+  ]
+}

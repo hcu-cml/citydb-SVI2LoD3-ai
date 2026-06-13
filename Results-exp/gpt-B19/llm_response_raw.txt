@@ -1,0 +1,27 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 2251, "y1": 3999},
+  "openings": [
+    {"type": "Window", "x0": 536, "y0": 628, "x1": 1135, "y1": 781, "reason": "aligned to SAM top-left window row"},
+    {"type": "Window", "x0": 1349, "y0": 628, "x1": 1898, "y1": 781, "reason": "aligned to SAM top-right window row"},
+    {"type": "Window", "x0": 536, "y0": 909, "x1": 1135, "y1": 1082, "reason": "second row left, aligned with row pattern"},
+    {"type": "Window", "x0": 1349, "y0": 909, "x1": 1898, "y1": 1082, "reason": "second row right, aligned with row pattern"},
+    {"type": "Window", "x0": 536, "y0": 1221, "x1": 1135, "y1": 1411, "reason": "third row left, refined from SAM"},
+    {"type": "Window", "x0": 1349, "y0": 1221, "x1": 1898, "y1": 1411, "reason": "third row right, refined from SAM"},
+    {"type": "Window", "x0": 536, "y0": 1557, "x1": 1135, "y1": 1767, "reason": "fourth row left, aligned with facade grid"},
+    {"type": "Window", "x0": 1349, "y0": 1557, "x1": 1898, "y1": 1767, "reason": "fourth row right, aligned with facade grid"},
+    {"type": "Window", "x0": 536, "y0": 1889, "x1": 1135, "y1": 2133, "reason": "fifth row left, refined from SAM"},
+    {"type": "Window", "x0": 1349, "y0": 1889, "x1": 1898, "y1": 2133, "reason": "fifth row right, refined from SAM"},
+    {"type": "Window", "x0": 536, "y0": 2335, "x1": 1135, "y1": 2591, "reason": "sixth row left, above shopfront"},
+    {"type": "Window", "x0": 1349, "y0": 2335, "x1": 1898, "y1": 2591, "reason": "sixth row right, above shopfront"},
+    {"type": "Window", "x0": 1349, "y0": 2864, "x1": 2082, "y1": 3348, "reason": "large right shopfront window from SAM"},
+    {"type": "Door", "x0": 394, "y0": 2933, "x1": 624, "y1": 3268, "reason": "left entrance door from SAM"},
+    {"type": "Door", "x0": 859, "y0": 2936, "x1": 1060, "y1": 3305, "reason": "central entrance door from SAM"},
+    {"type": "Door", "x0": 1895, "y0": 3264, "x1": 2122, "y1": 3625, "reason": "right entrance door from SAM"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "All roof-level and side noise windows removed; only main facade openings kept.",
+    "Small extreme-side candidate windows and rightmost ground door removed as they overlap cars or lie outside clear facade area.",
+    "Rows and columns snapped to consistent grid where supported by SAM mask."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {"type": "Window", "x0": 1129, "y0": 733, "x1": 1354, "y1": 941, "reason": "aligned with SAM left upper window and neighboring upper row"},
+    {"type": "Window", "x0": 1576, "y0": 732, "x1": 1859, "y1": 1017, "reason": "central upper window from SAM, kept as is"},
+    {"type": "Window", "x0": 2089, "y0": 743, "x1": 2317, "y1": 952, "reason": "aligned with SAM right upper window and neighboring upper row"},
+    {"type": "Window", "x0": 1096, "y0": 1184, "x1": 1332, "y1": 1406, "reason": "left lower large window from SAM, axis-aligned"},
+    {"type": "Window", "x0": 1384, "y0": 1244, "x1": 1514, "y1": 1362, "reason": "left small lower window from SAM, refined rectangle"},
+    {"type": "Window", "x0": 1895, "y0": 1245, "x1": 2020, "y1": 1365, "reason": "right small lower window from SAM, refined rectangle"},
+    {"type": "Window", "x0": 2086, "y0": 1186, "x1": 2323, "y1": 1421, "reason": "right lower large window from SAM, axis-aligned"},
+    {"type": "Door", "x0": 1621, "y0": 1175, "x1": 1791, "y1": 1557, "reason": "main central entrance door from SAM"},
+    {"type": "Door", "x0": 2004, "y0": 1630, "x1": 2409, "y1": 1949, "reason": "garage opening from SAM, kept as door-type opening"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Roof window removed as non-facade opening per instructions.",
+    "Candidate door d_02 on right side discarded; SAM mask shows it as non-opening (side building/garage door not on main facade).",
+    "All openings lie fully inside the facade rectangle and do not overlap."
+  ]
+}

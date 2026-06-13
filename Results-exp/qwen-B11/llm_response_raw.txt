@@ -1,0 +1,23 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {"type": "Window", "x0": 999, "y0": 713, "x1": 1252, "y1": 977, "reason": "aligned row"},
+    {"type": "Window", "x0": 1471, "y0": 718, "x1": 1709, "y1": 980, "reason": "aligned row"},
+    {"type": "Window", "x0": 1926, "y0": 724, "x1": 2157, "y1": 985, "reason": "aligned row"},
+    {"type": "Window", "x0": 2371, "y0": 728, "x1": 2607, "y1": 985, "reason": "aligned row"},
+    {"type": "Window", "x0": 961, "y0": 1228, "x1": 1228, "y1": 1546, "reason": "aligned row"},
+    {"type": "Window", "x0": 1499, "y0": 1224, "x1": 1620, "y1": 1538, "reason": "aligned row"},
+    {"type": "Window", "x0": 2007, "y0": 1223, "x1": 2121, "y1": 1539, "reason": "aligned row"},
+    {"type": "Window", "x0": 2386, "y0": 1228, "x1": 2641, "y1": 1536, "reason": "aligned row"},
+    {"type": "Window", "x0": 1447, "y0": 1765, "x1": 1566, "y1": 1857, "reason": "aligned row"},
+    {"type": "Window", "x0": 2043, "y0": 1757, "x1": 2161, "y1": 1872, "reason": "aligned row"},
+    {"type": "Door", "x0": 1704, "y0": 1226, "x1": 1919, "y1": 1646, "reason": "central entrance"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Removed roof windows and noise (trees, cars, neighboring buildings) from SAM mask.",
+    "Aligned windows into consistent rows and columns based on visual evidence.",
+    "All openings are axis-aligned rectangles and fully within facade bounds.",
+    "No overlaps between openings."
+  ]
+}

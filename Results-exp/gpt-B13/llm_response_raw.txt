@@ -1,0 +1,59 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {
+      "type": "Window",
+      "x0": 1072,
+      "y0": 641,
+      "x1": 1321,
+      "y1": 887,
+      "reason": "large left ground-floor window from SAM; aligned with central and right windows in same row"
+    },
+    {
+      "type": "Window",
+      "x0": 1671,
+      "y0": 657,
+      "x1": 1899,
+      "y1": 896,
+      "reason": "large central ground-floor window above door; strong SAM support"
+    },
+    {
+      "type": "Window",
+      "x0": 2230,
+      "y0": 671,
+      "x1": 2454,
+      "y1": 902,
+      "reason": "large right ground-floor window; aligned with other ground-floor windows"
+    },
+    {
+      "type": "Window",
+      "x0": 1051,
+      "y0": 1111,
+      "x1": 1309,
+      "y1": 1407,
+      "reason": "large left first-floor window; clear in SAM and RGB"
+    },
+    {
+      "type": "Door",
+      "x0": 1682,
+      "y0": 1111,
+      "x1": 1885,
+      "y1": 1505,
+      "reason": "main entrance door; strong SAM door region"
+    },
+    {
+      "type": "Window",
+      "x0": 2235,
+      "y0": 1119,
+      "x1": 2473,
+      "y1": 1397,
+      "reason": "large right first-floor window; clear in SAM and RGB"
+    }
+  ],
+  "confidence": "high",
+  "notes": [
+    "Small narrow side openings (w_01, w_02, w_06, w_07, w_08, w_11, w_12) are not on the main facade or are noise from trees/shadows and are removed.",
+    "Roof-level windows are excluded per instructions.",
+    "All remaining openings are axis-aligned rectangles and lie fully within the facade rectangle without overlaps."
+  ]
+}

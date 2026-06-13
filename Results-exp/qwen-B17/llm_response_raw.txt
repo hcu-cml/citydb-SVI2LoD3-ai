@@ -1,0 +1,27 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 1196, "y1": 3492},
+  "openings": [
+    {"type": "Window", "x0": 153, "y0": 1264, "x1": 366, "y1": 1625, "reason": "aligned row"},
+    {"type": "Window", "x0": 479, "y0": 1895, "x1": 682, "y1": 2308, "reason": "aligned row"},
+    {"type": "Window", "x0": 832, "y0": 1884, "x1": 1047, "y1": 2311, "reason": "aligned row"},
+    {"type": "Window", "x0": 114, "y0": 1897, "x1": 331, "y1": 2311, "reason": "aligned row"},
+    {"type": "Window", "x0": 426, "y0": 2596, "x1": 722, "y1": 3117, "reason": "aligned row"},
+    {"type": "Window", "x0": 777, "y0": 2599, "x1": 1076, "y1": 3126, "reason": "aligned row"},
+    {"type": "Window", "x0": 185, "y0": 620, "x1": 383, "y1": 949, "reason": "aligned row"},
+    {"type": "Window", "x0": 517, "y0": 600, "x1": 714, "y1": 872, "reason": "aligned row"},
+    {"type": "Window", "x0": 854, "y0": 593, "x1": 1049, "y1": 935, "reason": "aligned row"},
+    {"type": "Window", "x0": 232, "y0": 285, "x1": 371, "y1": 360, "reason": "aligned row"},
+    {"type": "Window", "x0": 474, "y0": 1196, "x1": 692, "y1": 1573, "reason": "aligned row"},
+    {"type": "Window", "x0": 844, "y0": 1256, "x1": 1044, "y1": 1612, "reason": "aligned row"},
+    {"type": "Door", "x0": 139, "y0": 2574, "x1": 337, "y1": 3111, "reason": "aligned row"},
+    {"type": "Door", "x0": 61, "y0": 3175, "x1": 98, "y1": 3305, "reason": "aligned row"},
+    {"type": "Door", "x0": 50, "y0": 3184, "x1": 130, "y1": 3404, "reason": "aligned row"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Removed roof window and noise (trees, cars, signs) from SAM mask.",
+    "Aligned all windows into consistent rows and columns based on visual evidence.",
+    "All openings are axis-aligned rectangles and fully within facade bounds.",
+    "No overlaps between openings."
+  ]
+}

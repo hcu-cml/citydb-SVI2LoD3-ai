@@ -1,0 +1,19 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {"type": "Window", "x0": 1130, "y0": 815, "x1": 1365, "y1": 1045, "reason": "left upper window aligned to SAM red region and neighboring windows"},
+    {"type": "Window", "x0": 1520, "y0": 775, "x1": 1945, "y1": 1060, "reason": "central triple upper window from SAM mask, merged into one rectangular opening"},
+    {"type": "Window", "x0": 2105, "y0": 825, "x1": 2310, "y1": 1045, "reason": "right upper window aligned with SAM mask and row"},
+    {"type": "Window", "x0": 1120, "y0": 1265, "x1": 1345, "y1": 1500, "reason": "left lower window from SAM mask, aligned with other lower openings"},
+    {"type": "Window", "x0": 1415, "y0": 1290, "x1": 1535, "y1": 1405, "reason": "small round-ish left window approximated as rectangle within SAM red circle"},
+    {"type": "Window", "x0": 1925, "y0": 1290, "x1": 2040, "y1": 1405, "reason": "small round-ish right window approximated as rectangle within SAM red circle"},
+    {"type": "Window", "x0": 2110, "y0": 1260, "x1": 2325, "y1": 1495, "reason": "right lower window from SAM mask, aligned with left lower window"},
+    {"type": "Door", "x0": 1650, "y0": 1220, "x1": 1815, "y1": 1615, "reason": "main entrance door from SAM green region"},
+    {"type": "Door", "x0": 2090, "y0": 1680, "x1": 2430, "y1": 2005, "reason": "garage door from SAM green region at basement level"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "All roof-level windows removed as requested; only main facade openings kept.",
+    "Openings adjusted to be axis-aligned rectangles and to avoid overlaps while following SAM mask extents."
+  ]
+}

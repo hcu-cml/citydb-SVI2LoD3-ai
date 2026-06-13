@@ -1,0 +1,20 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 1068, "y1": 1643},
+  "openings": [
+    {"type": "Window", "x0": 302, "y0": 744, "x1": 405, "y1": 1004, "reason": "consistent with window row"},
+    {"type": "Window", "x0": 592, "y0": 748, "x1": 767, "y1": 934, "reason": "consistent with window row"},
+    {"type": "Window", "x0": 866, "y0": 753, "x1": 1038, "y1": 940, "reason": "consistent with window row"},
+    {"type": "Window", "x0": 631, "y0": 1124, "x1": 1006, "y1": 1328, "reason": "consistent with window row"},
+    {"type": "Door", "x0": 287, "y0": 1118, "x1": 426, "y1": 1213, "reason": "consistent with door column"},
+    {"type": "Door", "x0": 298, "y0": 1272, "x1": 426, "y1": 1362, "reason": "consistent with door column"},
+    {"type": "Door", "x0": 286, "y0": 1353, "x1": 395, "y1": 1420, "reason": "consistent with door column"},
+    {"type": "Door", "x0": 669, "y0": 1464, "x1": 961, "y1": 1643, "reason": "consistent with door column"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Removed roof windows and noise (trees, cars, signs) from SAM mask.",
+    "Aligned windows into consistent rows and doors into consistent columns.",
+    "All openings are axis-aligned and fully within facade bounds.",
+    "No overlaps between openings."
+  ]
+}

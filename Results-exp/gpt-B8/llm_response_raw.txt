@@ -1,0 +1,19 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {"type": "Window", "x0": 1174, "y0": 837, "x1": 1427, "y1": 1169, "reason": "left first-floor window aligned with SAM mask and candidate w_02/d_01"},
+    {"type": "Window", "x0": 1589, "y0": 800, "x1": 2003, "y1": 1069, "reason": "central first-floor window group from SAM mask and candidate w_01"},
+    {"type": "Window", "x0": 2159, "y0": 843, "x1": 2396, "y1": 1163, "reason": "right first-floor window aligned with SAM mask and candidate w_03/d_02"},
+    {"type": "Door", "x0": 1711, "y0": 1286, "x1": 1875, "y1": 1676, "reason": "main entrance door from SAM mask and candidate d_03"},
+    {"type": "Window", "x0": 1174, "y0": 1318, "x1": 1405, "y1": 1554, "reason": "left ground-floor window from SAM mask and candidate w_05"},
+    {"type": "Window", "x0": 1470, "y0": 1355, "x1": 1601, "y1": 1479, "reason": "left small ground-floor window from SAM mask and candidate w_07"},
+    {"type": "Window", "x0": 1986, "y0": 1352, "x1": 2109, "y1": 1468, "reason": "right small ground-floor window from SAM mask and candidate w_06"},
+    {"type": "Window", "x0": 2179, "y0": 1307, "x1": 2392, "y1": 1539, "reason": "right ground-floor window from SAM mask and candidate w_04"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Roof windows and neighboring-building openings removed; only central facade openings kept.",
+    "Candidate w_08 discarded as it corresponds to a neighboring building or noise.",
+    "First-floor side windows share common vertical extents; ground-floor windows aligned by rows and columns as supported by SAM mask."
+  ]
+}

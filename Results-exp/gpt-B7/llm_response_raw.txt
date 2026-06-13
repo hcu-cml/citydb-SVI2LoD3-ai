@@ -1,0 +1,29 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 2251, "y1": 3999},
+  "openings": [
+    {"type": "Window", "x0": 455, "y0": 537, "x1": 900, "y1": 717, "reason": "aligned to SAM first-row left window cluster"},
+    {"type": "Window", "x0": 949, "y0": 537, "x1": 1380, "y1": 717, "reason": "aligned to SAM first-row middle window cluster"},
+    {"type": "Window", "x0": 1424, "y0": 537, "x1": 1847, "y1": 717, "reason": "aligned to SAM first-row right window cluster"},
+    {"type": "Window", "x0": 455, "y0": 813, "x1": 900, "y1": 1001, "reason": "aligned to SAM second-row left window cluster"},
+    {"type": "Window", "x0": 949, "y0": 813, "x1": 1380, "y1": 1001, "reason": "aligned to SAM second-row middle window cluster"},
+    {"type": "Window", "x0": 1424, "y0": 813, "x1": 1847, "y1": 1001, "reason": "aligned to SAM second-row right window cluster"},
+    {"type": "Window", "x0": 444, "y0": 1104, "x1": 897, "y1": 1296, "reason": "aligned to SAM third-row left window cluster"},
+    {"type": "Window", "x0": 949, "y0": 1104, "x1": 1390, "y1": 1296, "reason": "aligned to SAM third-row middle window cluster"},
+    {"type": "Window", "x0": 1435, "y0": 1104, "x1": 1870, "y1": 1296, "reason": "aligned to SAM third-row right window cluster"},
+    {"type": "Window", "x0": 426, "y0": 1416, "x1": 894, "y1": 1608, "reason": "aligned to SAM fourth-row left window cluster"},
+    {"type": "Window", "x0": 950, "y0": 1416, "x1": 1398, "y1": 1608, "reason": "aligned to SAM fourth-row middle window cluster"},
+    {"type": "Window", "x0": 1450, "y0": 1416, "x1": 1894, "y1": 1608, "reason": "aligned to SAM fourth-row right window cluster"},
+    {"type": "Window", "x0": 412, "y0": 1733, "x1": 891, "y1": 1930, "reason": "aligned to SAM fifth-row left window cluster"},
+    {"type": "Window", "x0": 948, "y0": 1733, "x1": 1406, "y1": 1930, "reason": "aligned to SAM fifth-row middle window cluster"},
+    {"type": "Window", "x0": 1458, "y0": 1733, "x1": 1906, "y1": 1930, "reason": "aligned to SAM fifth-row right window cluster"},
+    {"type": "Window", "x0": 394, "y0": 2068, "x1": 889, "y1": 2271, "reason": "aligned to SAM sixth-row left window cluster"},
+    {"type": "Window", "x0": 948, "y0": 2068, "x1": 1420, "y1": 2271, "reason": "aligned to SAM sixth-row middle window cluster"},
+    {"type": "Window", "x0": 1472, "y0": 2068, "x1": 1939, "y1": 2271, "reason": "aligned to SAM sixth-row right window cluster"},
+    {"type": "Door", "x0": 947, "y0": 2444, "x1": 1103, "y1": 2801, "reason": "only SAM green region on main facade, matches entrance door"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Removed small right-edge windows w_04, w_08, w_15, w_22 as they belong to neighboring facade or noise and are not in SAM mask.",
+    "Rows and columns snapped to common y and x ranges per SAM; all openings are non-overlapping and within facade bounds."
+  ]
+}

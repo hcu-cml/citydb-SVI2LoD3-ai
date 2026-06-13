@@ -1,0 +1,98 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {
+      "type": "Window",
+      "x0": 1182,
+      "y0": 674,
+      "x1": 1443,
+      "y1": 984,
+      "reason": "upper-left main-floor window from SAM, aligned to row/column"
+    },
+    {
+      "type": "Window",
+      "x0": 1518,
+      "y0": 692,
+      "x1": 1650,
+      "y1": 984,
+      "reason": "upper-center-left narrow window; bottom aligned with adjacent windows"
+    },
+    {
+      "type": "Window",
+      "x0": 1726,
+      "y0": 714,
+      "x1": 1951,
+      "y1": 1087,
+      "reason": "upper-center-right tall window; kept as detected"
+    },
+    {
+      "type": "Window",
+      "x0": 2236,
+      "y0": 747,
+      "x1": 2456,
+      "y1": 1087,
+      "reason": "upper-right window; aligned vertically with w_03"
+    },
+    {
+      "type": "Window",
+      "x0": 1100,
+      "y0": 1208,
+      "x1": 1647,
+      "y1": 1621,
+      "reason": "large lower-left window; follows SAM mask extent"
+    },
+    {
+      "type": "Window",
+      "x0": 1721,
+      "y0": 1225,
+      "x1": 1859,
+      "y1": 1524,
+      "reason": "lower-center-left narrow window; aligned with w_08"
+    },
+    {
+      "type": "Window",
+      "x0": 1875,
+      "y0": 1225,
+      "x1": 1960,
+      "y1": 1557,
+      "reason": "lower-center-right narrow window; top aligned with w_07"
+    },
+    {
+      "type": "Window",
+      "x0": 2184,
+      "y0": 1209,
+      "x1": 2542,
+      "y1": 1459,
+      "reason": "lower-right window; aligned to SAM and neighboring openings"
+    },
+    {
+      "type": "Window",
+      "x0": 1009,
+      "y0": 1246,
+      "x1": 1084,
+      "y1": 1621,
+      "reason": "small side window left of large lower-left window; shares bottom with w_05"
+    },
+    {
+      "type": "Door",
+      "x0": 2288,
+      "y0": 1664,
+      "x1": 2526,
+      "y1": 1979,
+      "reason": "left garage door; SAM green region, adjusted to avoid overlap with d_01"
+    },
+    {
+      "type": "Door",
+      "x0": 2623,
+      "y0": 1658,
+      "x1": 3013,
+      "y1": 1967,
+      "reason": "right garage door; SAM green region, kept axis-aligned"
+    }
+  ],
+  "confidence": "high",
+  "notes": [
+    "Roof windows and neighboring-building windows/doors removed; only main facade openings kept.",
+    "All openings lie fully within facade rectangle and do not overlap."
+  ]
+}

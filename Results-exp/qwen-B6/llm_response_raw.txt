@@ -1,0 +1,33 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 2251, "y1": 3999},
+  "openings": [
+    {"type": "Window", "x0": 836, "y0": 835, "x1": 1278, "y1": 1026, "reason": "consistent row"},
+    {"type": "Window", "x0": 396, "y0": 918, "x1": 803, "y1": 1095, "reason": "consistent row"},
+    {"type": "Window", "x0": 820, "y0": 1060, "x1": 1279, "y1": 1253, "reason": "consistent row"},
+    {"type": "Window", "x0": 361, "y0": 1132, "x1": 783, "y1": 1314, "reason": "consistent row"},
+    {"type": "Window", "x0": 799, "y0": 1297, "x1": 1282, "y1": 1496, "reason": "consistent row"},
+    {"type": "Window", "x0": 318, "y0": 1361, "x1": 760, "y1": 1544, "reason": "consistent row"},
+    {"type": "Window", "x0": 774, "y0": 1561, "x1": 1286, "y1": 1766, "reason": "consistent row"},
+    {"type": "Window", "x0": 276, "y0": 1618, "x1": 734, "y1": 1804, "reason": "consistent row"},
+    {"type": "Window", "x0": 749, "y0": 1858, "x1": 1284, "y1": 2064, "reason": "consistent row"},
+    {"type": "Window", "x0": 230, "y0": 1894, "x1": 711, "y1": 2079, "reason": "consistent row"},
+    {"type": "Window", "x0": 1347, "y0": 2157, "x1": 1952, "y1": 2390, "reason": "consistent row"},
+    {"type": "Window", "x0": 730, "y0": 2183, "x1": 1288, "y1": 2386, "reason": "consistent row"},
+    {"type": "Window", "x0": 167, "y0": 2205, "x1": 678, "y1": 2401, "reason": "consistent row"},
+    {"type": "Door", "x0": 232, "y0": 2559, "x1": 642, "y1": 2931, "reason": "consistent column"},
+    {"type": "Door", "x0": 840, "y0": 2559, "x1": 996, "y1": 2948, "reason": "consistent column"},
+    {"type": "Door", "x0": 999, "y0": 2559, "x1": 1151, "y1": 2959, "reason": "consistent column"},
+    {"type": "Door", "x0": 1398, "y0": 2562, "x1": 1526, "y1": 2966, "reason": "consistent column"},
+    {"type": "Door", "x0": 1645, "y0": 2568, "x1": 1797, "y1": 2976, "reason": "consistent column"},
+    {"type": "Door", "x0": 1520, "y0": 2569, "x1": 1657, "y1": 2971, "reason": "consistent column"},
+    {"type": "Door", "x0": 1796, "y0": 2570, "x1": 1972, "y1": 2981, "reason": "consistent column"},
+    {"type": "Door", "x0": 1161, "y0": 2665, "x1": 1273, "y1": 2958, "reason": "consistent column"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "All windows and doors are axis-aligned rectangles.",
+    "Openings are aligned in consistent rows and columns.",
+    "All objects are fully within the facade rectangle.",
+    "No roof windows or noise (trees, cars, signs) are included."
+  ]
+}

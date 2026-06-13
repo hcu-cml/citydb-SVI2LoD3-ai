@@ -1,0 +1,18 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {"type": "Window", "x0": 1009, "y0": 736, "x1": 1290, "y1": 962, "reason": "large left main-floor window from SAM, aligned and denoised"},
+    {"type": "Window", "x0": 2392, "y0": 737, "x1": 2658, "y1": 961, "reason": "large right main-floor window from SAM, aligned and denoised"},
+    {"type": "Window", "x0": 978, "y0": 1175, "x1": 1177, "y1": 1424, "reason": "lower-left window from SAM, refined to rectangle"},
+    {"type": "Window", "x0": 1756, "y0": 977, "x1": 1937, "y1": 1119, "reason": "central mid-level window above door from SAM"},
+    {"type": "Window", "x0": 2500, "y0": 1168, "x1": 2690, "y1": 1410, "reason": "lower-right window from SAM, refined to rectangle"},
+    {"type": "Window", "x0": 1544, "y0": 1337, "x1": 2070, "y1": 1420, "reason": "narrow strip window above entrance canopy from SAM"},
+    {"type": "Door", "x0": 1731, "y0": 1417, "x1": 1957, "y1": 1752, "reason": "main entrance door from SAM, cleaned from vegetation and cars"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Roof-level dormer windows and neighboring-building windows removed as out of target facade or roof level.",
+    "Small candidate windows w_01 and w_02 discarded as noise; no clear SAM support on main facade.",
+    "All openings kept within facade rectangle and checked for non-overlap."
+  ]
+}

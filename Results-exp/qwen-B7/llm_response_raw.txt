@@ -1,0 +1,31 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 2251, "y1": 3999},
+  "openings": [
+    {"type": "Window", "x0": 471, "y0": 537, "x1": 902, "y1": 717, "reason": "consistent row"},
+    {"type": "Window", "x0": 951, "y0": 561, "x1": 1369, "y1": 737, "reason": "consistent row"},
+    {"type": "Window", "x0": 1416, "y0": 582, "x1": 1828, "y1": 752, "reason": "consistent row"},
+    {"type": "Window", "x0": 1958, "y0": 776, "x1": 2071, "y1": 938, "reason": "consistent row"},
+    {"type": "Window", "x0": 455, "y0": 813, "x1": 900, "y1": 1001, "reason": "consistent row"},
+    {"type": "Window", "x0": 949, "y0": 836, "x1": 1380, "y1": 1021, "reason": "consistent row"},
+    {"type": "Window", "x0": 1424, "y0": 854, "x1": 1847, "y1": 1029, "reason": "consistent row"},
+    {"type": "Window", "x0": 1986, "y0": 1095, "x1": 2101, "y1": 1273, "reason": "consistent row"},
+    {"type": "Window", "x0": 444, "y0": 1104, "x1": 897, "y1": 1296, "reason": "consistent row"},
+    {"type": "Window", "x0": 949, "y0": 1123, "x1": 1390, "y1": 1310, "reason": "consistent row"},
+    {"type": "Window", "x0": 1435, "y0": 1137, "x1": 1870, "y1": 1317, "reason": "consistent row"},
+    {"type": "Window", "x0": 426, "y0": 1416, "x1": 894, "y1": 1608, "reason": "consistent row"},
+    {"type": "Window", "x0": 950, "y0": 1432, "x1": 1398, "y1": 1619, "reason": "consistent row"},
+    {"type": "Window", "x0": 1450, "y0": 1441, "x1": 1894, "y1": 1626, "reason": "consistent row"},
+    {"type": "Window", "x0": 2019, "y0": 1469, "x1": 2131, "y1": 1660, "reason": "consistent row"},
+    {"type": "Window", "x0": 412, "y0": 1733, "x1": 891, "y1": 1930, "reason": "consistent row"},
+    {"type": "Window", "x0": 948, "y0": 1742, "x1": 1406, "y1": 1941, "reason": "consistent row"},
+    {"type": "Window", "x0": 1458, "y0": 1748, "x1": 1906, "y1": 1943, "reason": "consistent row"},
+    {"type": "Window", "x0": 394, "y0": 2068, "x1": 889, "y1": 2271, "reason": "consistent row"},
+    {"type": "Window", "x0": 948, "y0": 2072, "x1": 1420, "y1": 2274, "reason": "consistent row"},
+    {"type": "Window", "x0": 1472, "y0": 2076, "x1": 1939, "y1": 2276, "reason": "consistent row"},
+    {"type": "Door", "x0": 947, "y0": 2444, "x1": 1103, "y1": 2801, "reason": "consistent column"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "All windows are aligned in consistent rows and columns. The small window at [1620, 2746, 1648, 2800] is a noise artifact and removed. Roof windows are not present in the facade. All openings are fully within the facade rectangle."
+  ]
+}

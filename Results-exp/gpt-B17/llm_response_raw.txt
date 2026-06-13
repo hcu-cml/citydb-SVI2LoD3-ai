@@ -1,0 +1,23 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 1196, "y1": 3492},
+  "openings": [
+    {"type": "Window", "x0": 185, "y0": 620, "x1": 383, "y1": 949, "reason": "aligned with SAM first-row left window and neighboring rows"},
+    {"type": "Window", "x0": 517, "y0": 600, "x1": 714, "y1": 949, "reason": "center first-row window, height aligned to left/right"},
+    {"type": "Window", "x0": 854, "y0": 593, "x1": 1049, "y1": 949, "reason": "right first-row window, aligned with SAM and other first-row windows"},
+    {"type": "Window", "x0": 153, "y0": 1264, "x1": 366, "y1": 1625, "reason": "second-row left window, aligned with SAM and column below"},
+    {"type": "Window", "x0": 474, "y0": 1196, "x1": 692, "y1": 1625, "reason": "second-row center window, aligned with SAM and column below"},
+    {"type": "Window", "x0": 844, "y0": 1256, "x1": 1044, "y1": 1612, "reason": "second-row right window, aligned with SAM and column below"},
+    {"type": "Window", "x0": 114, "y0": 1897, "x1": 331, "y1": 2311, "reason": "third-row left window, aligned with SAM and column above"},
+    {"type": "Window", "x0": 479, "y0": 1895, "x1": 682, "y1": 2308, "reason": "third-row center window, aligned with SAM and column above"},
+    {"type": "Window", "x0": 832, "y0": 1884, "x1": 1047, "y1": 2311, "reason": "third-row right window, aligned with SAM and column above"},
+    {"type": "Door", "x0": 139, "y0": 2574, "x1": 337, "y1": 3111, "reason": "main entrance door from SAM, kept as-is"},
+    {"type": "Window", "x0": 426, "y0": 2596, "x1": 722, "y1": 3117, "reason": "ground-floor large window group, aligned with SAM"},
+    {"type": "Window", "x0": 777, "y0": 2599, "x1": 1076, "y1": 3126, "reason": "ground-floor right large window group, aligned with SAM"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Roof windows and small roof opening removed; only facade-level openings from SAM retained.",
+    "Columns aligned approximately at x≈[~150-380], [~470-720], [~830-1050] across rows; minor adjustments respect SAM extents.",
+    "Small low-right candidate doors d_02 and d_03 discarded as noise from cars/sidewalk."
+  ]
+}

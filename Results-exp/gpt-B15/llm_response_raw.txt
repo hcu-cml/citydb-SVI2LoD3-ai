@@ -1,0 +1,19 @@
+{
+  "facade_bbox": {"x0": 0, "y0": 0, "x1": 3999, "y1": 2251},
+  "openings": [
+    {"type": "Window", "x0": 1123, "y0": 765, "x1": 1345, "y1": 999, "reason": "aligned with left first-floor facade window in SAM mask"},
+    {"type": "Window", "x0": 1673, "y0": 772, "x1": 1886, "y1": 994, "reason": "aligned with central first-floor facade window in SAM mask"},
+    {"type": "Window", "x0": 2201, "y0": 769, "x1": 2414, "y1": 994, "reason": "aligned with right first-floor facade window in SAM mask"},
+    {"type": "Window", "x0": 1112, "y0": 1231, "x1": 1330, "y1": 1487, "reason": "ground-floor left facade window from SAM mask"},
+    {"type": "Window", "x0": 1564, "y0": 1210, "x1": 1637, "y1": 1346, "reason": "small window left of door from SAM mask"},
+    {"type": "Window", "x0": 1919, "y0": 1207, "x1": 1987, "y1": 1341, "reason": "small window right of door from SAM mask"},
+    {"type": "Window", "x0": 2219, "y0": 1223, "x1": 2425, "y1": 1476, "reason": "ground-floor right facade window from SAM mask"},
+    {"type": "Door", "x0": 1687, "y0": 1277, "x1": 1872, "y1": 1587, "reason": "main entrance door from SAM mask"}
+  ],
+  "confidence": "high",
+  "notes": [
+    "Roof windows and neighboring-building windows removed; only main facade openings kept.",
+    "All openings are axis-aligned rectangles and lie fully within the facade rectangle.",
+    "Rows and columns of facade windows are mutually aligned based on SAM evidence and rectified geometry."
+  ]
+}
