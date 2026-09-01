@@ -33,7 +33,30 @@ On Windows:
 set OPENAI_API_KEY=your-api-key-here
 ```
 
-## 3. Run the script
+
+## 3. SAM3 mask generation
+
+The pipeline expects a material segmentation mask as input, so the RGB image
+must be passed through SAM3 first. Clone the repository and install it:
+
+```bash
+git clone https://github.com/facebookresearch/sam3.git
+cd sam3
+pip install -e .
+```
+To avoid issues move the create_sam_mask.py to /sam3 folder
+Then generate the mask for the image:
+
+```bash
+python create_sam_mask.py
+```
+
+The resulting `sam_mask.png` is the `--mask` / `--mask_image` argument of
+`vlm_simple_cluster.py`. Keep the naming convention `building.jpg` ->
+`building_mask.png` so the batch loop can pair them.
+
+
+## 4. Run the script
 
 For one single Image:
 ```bash
@@ -83,7 +106,7 @@ image: building.jpg
 Sam_Mask: building_mask.png
 lod2: building.gml
 
-## 3. Run the evaluation
+## 5. Run the evaluation
 
 To run the evaluation make sure to structure you evaluation folder as follow:
 
@@ -109,6 +132,6 @@ not in visible distance to the camera.
 
 
 This prevents a farther, coincidentally more head-on wall from overriding the
-true camera-facing facade, a failure observed with perpendicular wall pairs 
+true camera-facing facade, a failure observed with perpendicular wall pairs.
 
 ![Facade](camera_fix.png)
