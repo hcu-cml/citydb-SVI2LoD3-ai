@@ -1,5 +1,7 @@
 # Project Setup
 
+![pipeline](lod3.png)
+
 ## 1. Required repository for validation
 
 To validate the output LoD3.gml file clone the following repo:
@@ -106,5 +108,5 @@ not in visible distance to the camera.
 
 This prevents a farther, coincidentally more head-on wall from overriding the
 true camera-facing facade, a failure observed with perpendicular wall pairs 
-(see `docs/camera_fix.png`: `ws5` is more frontal to `n_cam` but
-`ws1` at distance `d1 < d2` is the correct match).
+
+![Facade](camera_fix.png)
