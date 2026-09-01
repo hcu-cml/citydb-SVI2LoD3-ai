@@ -1,4 +1,4 @@
-# Result Overview
+# Results Overview
 
 ![pipeline](lod3.png)
 
