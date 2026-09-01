@@ -91,3 +91,20 @@ and run :
 ```bash
 python frnds_iou.py
 ```
+
+## WallSurface selection (updated)
+
+`choose_wall_surface_from_camera_cluster.py` no longer picks the most frontal
+wall. In dense urban scenes a farther WallSurface can have a better normal
+alignment with the camera normal and get selected even when it is not the
+facade visible in the photograph.
+
+**Fix:** wall is selected using both the normal and the distance from the 
+camera, the nearest one to the camera with is selected, discarding all walls that
+not in visible distance to the camera.
+
+
+This prevents a farther, coincidentally more head-on wall from overriding the
+true camera-facing facade, a failure observed with perpendicular wall pairs 
+(see `docs/camera_fix.png`: `ws5` is more frontal to `n_cam` but
+`ws1` at distance `d1 < d2` is the correct match).
