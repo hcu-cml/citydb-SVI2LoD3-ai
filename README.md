@@ -145,5 +145,4 @@ JOURNAL = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Inform
 YEAR = {2026},
 PAGES = {203--210},
 DOI = {10.5194/isprs-annals-XII-4-W1-2026-203-2026}
-}
 }</code></pre>
