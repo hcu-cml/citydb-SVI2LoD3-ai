@@ -135,3 +135,15 @@ This prevents a farther, coincidentally more head-on wall from overriding the
 true camera-facing facade, a failure observed with perpendicular wall pairs.
 
 ![Facade](camera_fix.png)
+
+## Cite
+
+<pre><code>@Article{kanna2026svi2lod3,
+AUTHOR = {Kanna, E. and Arzoumanidis, L. and Nguyen, H. D. A. S. and Dehbi, Y.},
+TITLE = {SVI2LoD3: Agent-Driven Reconstruction of LoD3 Façade Openings in Semantic 3D City Models from Volunteered Street View Imagery using Large Language and Visual Models},
+JOURNAL = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+YEAR = {2026},
+PAGES = {203--210},
+DOI = {10.5194/isprs-annals-XII-4-W1-2026-203-2026}
+}
+}</code></pre>
